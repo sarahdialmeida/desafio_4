@@ -1,31 +1,26 @@
 import React from "react";
 import { Link } from "react-router-dom";
 // entre chaves porque estou importando parte dele
-import logo from "../../assets/logo.png";
-import './style.css';
+import logo from "../../assets/logo.svg";
+import "./style.css";
+import { Card } from "../../components/cards";
+import { Input } from "../../components/input";
 
 function Login() {
   function handleSubmit() {
-	  console.log('enviado')
+    console.log("enviado");
   }
-	return (
+  return (
     <div className="container">
-      <div className="form">
-        <img src={logo} alt="logo da Cubos Academy"></img>
-        <form onSubmit = {handleSubmit}>
-          <label> 
-            Email
-            <input name="email" type="email" />
-          </label>
-          <label>
-            Senha
-            <input name="senha" type = "senha" />
-          </label>
-          <Link to="/esqueci-minha-senha"> 'Esqueci minha senha'</Link>
-		  <button type = 'submit'>Entrar</button>
-
-        </form>
-      </div>
+      <Card>
+			<form className="imageAndForm" onSubmit={handleSubmit}>
+			<img src={logo} alt="logo da Cubos Academy"/>
+			<Input className="loginInput" label="Email" type="email" name="email"/>
+			<Input className="loginInput" label="Senha" type="password" name="senha"/>
+			<Link to="/esqueci-minha-senha"> 'Esqueci minha senha'</Link>
+				<button type="submit">Entrar</button>
+				</form>
+      </Card>
       <div classname="cadastro">
         <p>Não tem uma conta?</p>
         <Link to="/cadastro"> Cadastre-se </Link>

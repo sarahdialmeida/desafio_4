@@ -5,13 +5,13 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Login from "./paginas/login";
 import Home from "./paginas/home";
 import Cadastro from "./paginas/cadastro";
-import AdicionarCliente from "./paginas/adicionar_cliente";
+import AdicionarCliente from "./paginas/AdicionarCliente";
 import Clientes from "./paginas/clientes";
 import Cobrancas from "./paginas/cobranças";
-import CriarCobranca from "./paginas/criar_cobrança";
+import CriarCobranca from "./paginas/CriarCobrança";
 import Deslogar from "./paginas/deslogar";
-import EditarCliente from "./paginas/editar_cliente";
-import EsqueciMinhaSenha from "./paginas/esqueci-minha-senha";
+import EditarCliente from "./paginas/EditarCliente";
+import EsqueciMinhaSenha from "./paginas/EsqueciMinhaSenha";
 
 //preciso importar com letra maiuscula
 
