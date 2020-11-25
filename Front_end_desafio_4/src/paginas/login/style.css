@@ -12,7 +12,44 @@
   align-items: center;
 }
 
-.loginInput{
-	margin:20px;
+.loginInput {
+  margin-bottom: 20px;
 }
 
+.imageAndForm img {
+  margin-bottom: 30px;
+}
+
+.imageAndForm a {
+  color: #263238;
+  font-size: 12px;
+  text-align: right;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.cadastro {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+}
+
+.cadastro p {
+  font-size: 12px;
+  margin: 0;
+  margin-right: 3px;
+}
+
+.eye {
+  background: none;
+  border: 0;
+  padding: 0;
+  position: absolute;
+  right: 0 ;
+
+}
+
+.senha {
+  position: relative;
+
+}
