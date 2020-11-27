@@ -1,10 +1,10 @@
 import "./style.css";
 import { Link, useHistory } from "react-router-dom";
 import { Botao } from "../botao";
-import homeIcon from "../assets/icons/homeIcon.svg";
-import moneyIcon from "../assets/icons/moneyIcon.svg";
-import userIcon from "../assets/icons/userIcon.svg";
-import logoWhite from "../assets/logoWhite.svg";
+import homeIcon from "../../assets/icons/homeIcon.svg";
+import moneyIcon from "../../assets/icons/moneyIcon.svg";
+import userIcon from "../../assets/icons/userIcon.svg";
+import logoWhite from "../../assets/logoWhite.svg";
 
 export function Sidebar() {
   const history = useHistory();
