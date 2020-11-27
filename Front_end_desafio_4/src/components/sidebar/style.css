@@ -1,0 +1,46 @@
+.sidebar {
+  background: #263238;
+  display: flex;
+  justify-content: flex-start;
+  width: 264px;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 32px 0px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 58px;
+}
+
+.link {
+  display: flex;
+  padding: 16px;
+  padding-left: 48px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  align-items: center;
+}
+
+.botao {
+  margin-top: 328px;
+  font-weight: 600;
+  align-self: center;
+}
+
+.link span {
+  margin-left: 16px;
+}
+
+.link:hover {
+  background-color: #374952;
+}
+
+.logo {
+  margin-left: 48px;
+}

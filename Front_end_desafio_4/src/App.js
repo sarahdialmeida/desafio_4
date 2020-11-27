@@ -12,6 +12,7 @@ import CriarCobranca from "./paginas/CriarCobrança";
 import Deslogar from "./paginas/deslogar";
 import EditarCliente from "./paginas/EditarCliente";
 import EsqueciMinhaSenha from "./paginas/EsqueciMinhaSenha";
+import { Routes } from "./routes.jsx";
 
 //preciso importar com letra maiuscula
 
@@ -19,51 +20,7 @@ import EsqueciMinhaSenha from "./paginas/EsqueciMinhaSenha";
 //criar rotas
 
 function App() {
-  return (
-    <Router>
-      <Switch>
-        <Route path="/cadastro">
-          <Cadastro />
-        </Route>
-
-        <Route path="/deslogar">
-          <Deslogar />
-        </Route>
-
-        <Route path="/criar_cobranca">
-          <CriarCobranca />
-        </Route>
-
-        <Route path="/cobrancas">
-          <Cobrancas />
-        </Route>
-
-        <Route path="/esqueciminhasenha">
-          <EsqueciMinhaSenha />
-        </Route>
-
-        <Route path="/clientes">
-          <Clientes />
-        </Route>
-
-        <Route path="/adicionarcliente">
-          <AdicionarCliente />
-        </Route>
-
-        <Route path="/editarcliente">
-          <EditarCliente />
-        </Route>
-
-        <Route path="/login">
-          <Login />
-        </Route>
-
-        <Route path="/">
-          <Home />
-        </Route>
-      </Switch>
-    </Router>
-  );
+  return <Routes />;
 }
 
 export default App;

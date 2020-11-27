@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.rotasSidebar {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+
+}
+
+.paginacao{
+	flex-grow: 1;
+	
+}

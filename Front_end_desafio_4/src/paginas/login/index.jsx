@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 // entre chaves porque estou importando parte dele
-import logo from "../../assets/logo.svg";
-import openEye from "../../assets/icons/openEye.svg";
-import closedEye from "../../assets/icons/closedEye.svg";
+import logo from "../../components/assets/logo.svg";
+import openEye from "../../components/assets/icons/openEye.svg";
+import closedEye from "../../components/assets/icons/closedEye.svg";
+
 import "./style.css";
 import { Card } from "../../components/cards";
 import { Input } from "../../components/input";
