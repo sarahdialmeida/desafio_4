@@ -1,3 +1,36 @@
-body{
-	background: palevioletred;
+header {
+  /* //do not touch me */
+  background-color: #ffffff;
+  height: 228px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  align-items: flex-start;
+}
+
+.loginProfile {
+  margin-right: 20px;
+}
+
+.cardsDaHome {
+  justify-content: space-between;
+}
+.principal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex-wrap: wrap;
+
+}
+
+.cardClient {
+  width: 410px;
+  height: 352px;
+}
+
+.headerCardClient {
+  width: 410px;
+  height: 80px;
+  background-color: #374952;
 }

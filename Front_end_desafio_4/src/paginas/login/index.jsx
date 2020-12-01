@@ -4,15 +4,16 @@ import { Link } from "react-router-dom";
 import logo from "../../assets/logo.svg";
 import openEye from "../../assets/icons/openEye.svg";
 import closedEye from "../../assets/icons/closedEye.svg";
-
 import "./style.css";
 import { Card } from "../../components/cards";
 import { Input } from "../../components/input";
 import { Botao } from "../../components/botao";
+import { fazerRequisicaoComBody } from "../../utils/requisicao";
 
 function Login() {
   const [closePassword, setClosePassword] = React.useState("false");
   function handleSubmit() {
+    fazerRequisicaoComBody();
     console.log("enviado");
   }
   return (

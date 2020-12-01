@@ -23,6 +23,7 @@ import { Sidebar } from "./components/sidebar";
 export function Routes() {
   if (true) {
     return (
+	
       <Router>
         <div className="rotasSidebar">
           <Sidebar />
