@@ -1,7 +1,18 @@
-import React from "react";
+import "./style.css";
+import profile from "../../assets/icons/profile.svg";
 
 function criarCobranca() {
-  return <h1>Criar cobrança</h1>;
+  return (
+    <div className="home">
+      <header>
+        <span>
+          <img className="loginProfile" alt="profile" src={profile} />
+        </span>
+      </header>
+      <main className="principal">
+        
+      </main>
+    </div>
+  );
 }
-
 export default criarCobranca;

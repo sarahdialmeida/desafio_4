@@ -19,12 +19,14 @@ export function CardHome(props) {
         {props.redrectangle && (
           <div className="redRectangle">
             <p>{props.titleRedRectangle}</p>
+			<span>{props.valueRed}</span>
           </div>
         )}
 
         {props.bluerectangle && (
           <div className="blueRectangle">
             <p>{props.titleBlueRectangle}</p>
+			<span>{props.valueBlue}</span>
           </div>
         )}
       </div>

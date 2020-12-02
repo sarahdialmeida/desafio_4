@@ -25,13 +25,23 @@ function Home() {
           redrectangle
           titleGreenRectangle="Em dia"
           titleRedRectangle="Inadimplente"
-          valueGreen={1000}
+          valueGreen={0}
+          valueRed={0}
         />
 
         <CardHome
           classname="chargeCard"
           cardIcon={moneyIcon}
           title="Cobranças"
+          bluerectangle
+          redrectangle
+		  greenrectangle
+		  titleBlueRectangle="Previstas"
+		  titleRedRectangle="Vencidas"
+		  titleGreenRectangle="Pagas"
+          valueBlue={0}
+          valueRed={0}
+          valueGreen={0}
         />
 
         <CardHome

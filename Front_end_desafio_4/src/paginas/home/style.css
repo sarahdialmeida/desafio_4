@@ -15,22 +15,16 @@ header {
 .cardsDaHome {
   justify-content: space-between;
 }
+
 .principal {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 20px;
   height: 100%;
   flex-wrap: wrap;
-
 }
 
-.cardClient {
-  width: 410px;
-  height: 352px;
-}
-
-.headerCardClient {
-  width: 410px;
-  height: 80px;
-  background-color: #374952;
+.clientCard {
+  margin-right: 40px;
 }
