@@ -27,7 +27,6 @@ export function Routes() {
       <Router>
         <div className="rotasSidebar">
           <Sidebar />
-          <div className="paginacao">
             <Switch>
               <Route path="/criar_cobranca">
                 <CriarCobranca />
@@ -38,10 +37,10 @@ export function Routes() {
               <Route path="/clientes">
                 <Clientes />
               </Route>
-              <Route path="/adicionarcliente">
+              <Route path="/adicionar_cliente">
                 <AdicionarCliente />
               </Route>
-              <Route path="/editarcliente">
+              <Route path="/editar_cliente">
                 <EditarCliente />
               </Route>
               <Route path="/home">
@@ -52,7 +51,6 @@ export function Routes() {
               </Route>
             </Switch>
           </div>
-        </div>
       </Router>
     );
   }

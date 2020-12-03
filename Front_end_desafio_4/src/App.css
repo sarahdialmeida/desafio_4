@@ -1,5 +1,9 @@
 /* //classes a nivel global */
 
+* {
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -16,12 +20,12 @@
   height: 100%;
 }
 
-.paginacao {
+/* .paginacao {
   flex-grow: 1;
   min-height: 100vh;
-}
+} */
 
 .cardsDaHome {
   padding: 2em;
-  display:flex;
+  display: flex;
 }

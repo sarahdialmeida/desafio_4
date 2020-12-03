@@ -1,1 +1,39 @@
+.criarCobranca{
+	width: calc(100% - 264px);
+	display:flex;
+	flex-direction: column;
+}
+
+header{
+	height: 228px;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+	align-items: flex-start;
+}
+
+.criarCobranca .img {
+	display: flex;
+	justify-content: flex-end;
+  }
+  
+
+.principal{
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-evenly;
+	padding: 20px;
+	flex-wrap:wrap;
+
+}
+
+.cardCriarCobranca {
+	width: 958px;
+	height: 455px;
+	left: 336px;
+	top: 141px;
+	background: #ffffff;
+	border-radius: 16px;
+  }
+  
 

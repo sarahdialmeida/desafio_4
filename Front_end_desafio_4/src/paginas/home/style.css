@@ -1,6 +1,5 @@
 header {
   /* //do not touch me */
-  background-color: #ffffff;
   height: 228px;
   display: flex;
   justify-content: space-between;
@@ -12,14 +11,10 @@ header {
   margin-right: 20px;
 }
 
-.cardsDaHome {
-  justify-content: space-between;
-}
-
 .principal {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: space-evenly;
   padding: 20px;
   height: 100%;
   flex-wrap: wrap;
@@ -27,4 +22,8 @@ header {
 
 .clientCard {
   margin-right: 40px;
+}
+
+.cardHome{
+	margin-top:88px;
 }
