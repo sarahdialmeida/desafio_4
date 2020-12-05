@@ -1,0 +1,17 @@
+.cardCobrancas {
+  display: flex;
+  flex-direction: row;
+  background: #ffffff;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px;
+  margin: 10px auto;
+  border-radius: 8px;
+  width: 90%;
+  color: #4c4c4c;
+}
+
+.cardCobrancas h2 {
+  font-size: 14px;
+  font-weight: 400;
+}
